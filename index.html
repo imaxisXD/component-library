@@ -31,8 +31,8 @@
 
     <hr>
     <h2>@link</h2>
-    <a class=' primary-link ' href="/">Primary</a>
-    <a class=' secondary-link ' href='/'>Secondary</a>
+    <a class='link primary-link' href="/">Primary</a>
+    <a class='link secondary-link' href='/'>Secondary</a>
     <hr>
     <h2>@list</h2>
     <h3>unordered list</h3>
@@ -51,17 +51,17 @@
 
     <h2>@nav</h2>
 
-    <nav>
-        <div>I AM A DEV</div>
-        <ul>
-            <li>
-                <a href='/'>Home</a>
+    <nav class="navigation container">
+        <div class="nav-brand">iAMDEV</div>
+        <ul class='list-non-bullet nav-pills'>
+            <li class='list-item-inline'>
+                <a class='link link-active' href='/'>Home</a>
             </li>
-            <li>
-                <a href='/'>Project</a>
+            <li class='list-item-inline'>
+                <a class='link' href='/'>Project</a>
             </li>
-            <li>
-                <a href="/">About</a>
+            <li class='list-item-inline'>
+                <a class='link' href="/">About</a>
             </li>
         </ul>
     </nav>
@@ -70,9 +70,9 @@
 
     <h2>@header</h2>
 
-    <header>
-        <img src="img/head_image.svg" />
-        <h1> heading inside header </h1>
+    <header class='hero'>
+        <img class='hero-img' src="img/head_image.svg" />
+        <h1 class='hero-heading'> heading inside <span class='highlight'>header</span></h1>
     </header>
 
     <hr>
