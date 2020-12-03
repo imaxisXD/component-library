@@ -1,22 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Asap&family=Crimson+Text&family=Port+Lligat+Sans&display=swap');
-:root{
+
+:root {
     --primary-color: #34D399;
+    --bg-color: #F5F3FF;
+    --secondary-color: #3f3d56;
 }
 
 body {
     font-family: 'Asap', sans-serif;
-font-family: 'Crimson Text', serif;
-font-family: 'Port Lligat Sans', sans-serif;
+    font-family: 'Crimson Text', serif;
+    font-family: 'Port Lligat Sans', sans-serif;
+    background-color: var(--bg-color);
+    margin: 0px;
 }
 
-hr{
+hr {
     margin: 2rem 0rem;
 }
+
 /** container **/
 .container {
     padding-left: 1rem;
     padding-right: 1rem;
 }
+
 .container-center {
     max-width: 600px;
     margin: auto;
@@ -29,24 +36,26 @@ hr{
 }
 
 .primary-link {
-    background-color: 
-    var(--primary-color);
+    background-color:
+        var(--primary-color);
     border-radius: 0.5rem;
     color: white;
+    font-weight: bold;
 }
 
 .secondary-link {
-    color: var(--primary-color);
+    color: var(--secondary-color);
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
+    font-weight: bold;
 }
 
 /** lists **/
-.list-non-bullet{
+.list-non-bullet {
     list-style: none;
 }
 
-.list-item-inline{
+.list-item-inline {
     display: inline;
     padding: 0rem 0.5rem;
 
@@ -55,27 +64,27 @@ hr{
 /** navigation **/
 .navigation {
     background-color: var(--primary-color);
-    color:white;
     padding: 1rem;
-    border-bottom-left-radius: 1rem;    
+    border-bottom-left-radius: 1rem;
 }
 
-.navigation .nav-pills{
+.navigation .nav-pills {
     text-align: right;
 }
 
-.navigation .link{
-    color: #3f3d56 ;
-    
-    
+.navigation .link {
+    color: var(--secondary-color);
+
+
 }
-.navigation .nav-brand{
-    color:	#39374e;
+
+.navigation .nav-brand {
+    color: #39374e;
     font-weight: bold;
     font-size: 2rem;
 }
 
-.navigation .link-active{
+.navigation .link-active {
     font-weight: bold;
 }
 
@@ -84,16 +93,50 @@ hr{
     padding: 2rem;
 }
 
-.hero .hero-img{
+.hero .hero-img {
     max-width: 350px;
     display: block;
     margin: auto;
 }
 
-.hero .hero-heading{
+.hero .hero-heading {
+    text-align: center;
     font-size: 2rem;
-    color:#39354d;
+    color: #39354d;
 }
-.hero .highlight{
-    color: #36cf9a;
+
+.hero .highlight {
+    color: var(--primary-color);
+}
+
+/** section **/
+.section {
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align: center;
+
+}
+
+.ow {
+    background-color: #DDD6FE;
+}
+
+/** footer **/
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: #39354d;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link {
+    color: white;
+
+}
+
+.footer ul {
+    padding-inline-start: 0rem;
 }
