@@ -13,6 +13,11 @@ body {
     background-color: var(--bg-color);
     margin: 0px;
 }
+p{
+    color: var(--secondary-color);
+    font-size: large;
+
+}
 
 hr {
     margin: 2rem 0rem;
@@ -139,4 +144,8 @@ hr {
 
 .footer ul {
     padding-inline-start: 0rem;
+}
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
 }
