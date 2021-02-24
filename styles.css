@@ -13,7 +13,8 @@ body {
     background-color: var(--bg-color);
     margin: 0px;
 }
-p{
+
+p {
     color: var(--secondary-color);
     font-size: large;
 
@@ -146,14 +147,17 @@ hr {
 .footer ul {
     padding-inline-start: 0rem;
 }
+
 .footer .footer-header {
     font-weight: bold;
     font-size: large;
 }
+
 .highlight {
     color: var(--primary-color);
 }
-.txt-link{
+
+.txt-link {
     text-decoration: underline;
     color: var(--primary-color);
 }
