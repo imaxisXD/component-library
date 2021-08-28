@@ -104,6 +104,7 @@ hr {
     max-width: 350px;
     display: block;
     margin: auto;
+    width: 100%;
 }
 
 .hero .hero-heading {
@@ -119,6 +120,7 @@ hr {
 /** section **/
 .section {
     padding: 2rem;
+    
 }
 
 .section h1 {
